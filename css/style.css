@@ -504,6 +504,7 @@ button {
   right: 0;
   height: 100%;
   display: flex;
+  cursor: pointer;
 }
 .submit-btn svg {
   margin: auto;
