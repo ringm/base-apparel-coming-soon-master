@@ -9,12 +9,13 @@
       text-transform: uppercase;
       font-weight: 200;
       letter-spacing: 15px;
-      margin-bottom: .2em;
+      margin-bottom: .5em;
    }
 
    &__paragraph {
       font-size: $font-s;
       line-height: 1.75em;
+      margin-bottom: 1.75em;
    }
 
 }
@@ -28,8 +29,13 @@
    font-size: $font-xs;
    color: $light-gray;
    text-align: center;
+   line-height: 1.5em;
 
    & a {
       color: inherit;
+   }
+
+   & a:hover {
+      color: $soft-red;
    }
 }
