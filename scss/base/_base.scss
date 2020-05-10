@@ -1,0 +1,26 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   font-family: $font-primary;
+}
+
+ul {
+   padding-left: 0;
+   list-style: none;
+   text-align: center;
+}
+
+a {
+   text-decoration: none;
+}
+
+h1 {
+   margin-top: 0;
+}
+
+img {
+   max-width: 100%;
+}

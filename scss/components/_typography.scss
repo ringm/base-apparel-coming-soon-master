@@ -1,0 +1,35 @@
+.landing {
+
+   &__text {
+      color: $desaturated-red;
+   }
+
+   &__title {
+      font-size: $font-xl;
+      text-transform: uppercase;
+      font-weight: 200;
+      letter-spacing: 15px;
+      margin-bottom: .2em;
+   }
+
+   &__paragraph {
+      font-size: $font-s;
+      line-height: 1.75em;
+   }
+
+}
+
+.strong {
+   color: $tundora;
+   font-weight: 600;
+}
+
+.attribution {
+   font-size: $font-xs;
+   color: $light-gray;
+   text-align: center;
+
+   & a {
+      color: inherit;
+   }
+}

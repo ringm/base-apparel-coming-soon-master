@@ -1,0 +1,13 @@
+.submit-btn {
+   width: 75px;
+   border-radius: 100px;
+   background: $gradient-two;
+   position: absolute;
+   right: 0;
+   height: 100%;
+   display: flex;
+
+   & svg {
+      margin: auto;
+   }
+}

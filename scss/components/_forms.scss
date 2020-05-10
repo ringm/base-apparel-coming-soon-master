@@ -1,0 +1,13 @@
+.form {
+   display: flex;
+   position: relative;
+}
+
+.input {
+   border-radius: 100px;
+   height: 100%;
+   width: 100%;
+   border: 1px solid $desaturated-red;
+   padding: 1em 1.5em;
+   color: $desaturated-red;
+}

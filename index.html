@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+
+<body>
+
+  <main>
+    <div class="landing container">
+      <div class="landing__content">
+        <div class="landing__nav">
+          <img src="images/logo.svg" alt="company-logo" class="logo">
+        </div>
+          <picture class="landing__img">
+            <source media="(min-width: 650px)" srcset="images/hero-desktop.jpg">
+            <img src="images/hero-mobile.jpg" alt="hero-model" style="width: 100%;">
+          </picture>
+          <div class="landing__text">
+            <h1 class="landing__title">We're<br><span class="strong">coming<br>soon</span></h1>
+            <p class="landing__paragraph">Hello fellow shoppers! We're currently building our new fashion store. Add
+              your
+              email below to stay up-to-date with announcements and our launch deals.</p>
+            <form class="form" action="index.html" method="post">
+              <input class="input" type="email" id="email" name="user_email" placeholder="Email Address"
+                onfocus="this.placeholder=''">
+              <a href="#" class="submit-btn"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671"/></svg></a>
+            </form>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Martin Ring</a>.
+    </p>
+  </footer>
+
+</body>
+
+</html>
