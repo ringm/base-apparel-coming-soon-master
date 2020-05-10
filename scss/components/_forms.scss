@@ -5,9 +5,20 @@
 
 .input {
    border-radius: 100px;
+   color: $desaturated-red;
    height: 100%;
    width: 100%;
    border: 1px solid $desaturated-red;
    padding: 1em 1.5em;
+
+   &:focus {
+      outline: none;
+      color: $desaturated-red;
+      border: 1px solid $soft-red;
+      transition: 0.3s;
+   }
+}
+
+::placeholder {
    color: $desaturated-red;
 }

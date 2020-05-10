@@ -381,6 +381,10 @@ img {
   max-width: 100%;
 }
 
+button {
+  border: none;
+}
+
 .container {
   width: min(100%, 1440px);
   margin: 0 auto;
@@ -475,10 +479,20 @@ img {
 
 .input {
   border-radius: 100px;
+  color: #ce9797;
   height: 100%;
   width: 100%;
   border: 1px solid #ce9797;
   padding: 1em 1.5em;
+}
+.input:focus {
+  outline: none;
+  color: #ce9797;
+  border: 1px solid #f96262;
+  transition: 0.3s;
+}
+
+::placeholder {
   color: #ce9797;
 }
 
