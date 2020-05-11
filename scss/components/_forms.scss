@@ -3,11 +3,26 @@
    position: relative;
 }
 
+
+.field {
+   margin-bottom: 1.1em;
+   display: flex;
+   position: relative;
+   width: 100%;
+
+   & .alert-icon {
+      position: absolute;
+      right: 85px;
+      top: 18px;
+      transition: .5s;
+   }
+}
+
 .input {
 
    border-radius: 100px;
    color: $desaturated-red;
-   height: 100%;
+   height: 60px;
    width: 100%;
    border: 1px solid $desaturated-red;
    padding: 1em 1.5em;
@@ -18,6 +33,17 @@
       border: 1px solid $soft-red;
       transition: 0.3s;
    }
+}
+
+.warning-msg {
+   position: absolute;
+   left: 25px;
+   bottom: -50px;
+   color: $soft-red;
+   font-size: $font-xs;
+   font-weight: $font-semi-bold;
+   text-align: left;
+   transition: .5s;
 }
 
 ::placeholder {

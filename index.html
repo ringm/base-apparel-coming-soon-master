@@ -18,22 +18,28 @@
         <div class="landing__nav">
           <img src="images/logo.svg" alt="company-logo" class="logo">
         </div>
-          <picture class="landing__img">
-            <source media="(min-width: 650px)" srcset="images/hero-desktop.jpg">
-            <img src="images/hero-mobile.jpg" alt="hero-model" style="width: 100%;">
-          </picture>
-          <div class="landing__text">
-            <h1 class="landing__title">We're<br><span class="strong">coming<br>soon</span></h1>
-            <p class="landing__paragraph">Hello fellow shoppers! We're currently building our new fashion store. Add
-              your
-              email below to stay up-to-date with announcements and our launch deals.</p>
-            <form class="form" action="index.html" method="post">
-              <input class="input" type="email" id="email" name="user_email" placeholder="Email Address" onfocus="this.placeholder=''" required>
-              <button type="submit" href="#" class="submit-btn"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671"/></svg></button>
-            </form>
-          </div>
+        <picture class="landing__img">
+          <source media="(min-width: 650px)" srcset="images/hero-desktop.jpg">
+          <img src="images/hero-mobile.jpg" alt="hero-model" style="width: 100%;">
+        </picture>
+        <div class="landing__text">
+          <h1 class="landing__title">We're<br><span class="strong">coming<br>soon</span></h1>
+          <p class="landing__paragraph">Hello fellow shoppers! We're currently building our new fashion store. Add
+            your
+            email below to stay up-to-date with announcements and our launch deals.</p>
+          <form class="form" action="index.html" method="post">
+            <div class="field">
+              <input class="input" name="email" type="email" placeholder="Email" onfocus="this.placeholder=''">
+              <img src="images/icon-error.svg" alt="alert-icon" class="alert-icon hidden">
+              <p class="warning-msg hidden">Email cannot be empty</p>
+              <button type="submit" class="submit-btn"><svg xmlns="http://www.w3.org/2000/svg" width="12"
+                height="20">
+                <path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671" /></svg></button>
+            </div>
+          </form>
         </div>
       </div>
+    </div>
   </main>
 
   <footer>
