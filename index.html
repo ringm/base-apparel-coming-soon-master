@@ -28,14 +28,18 @@
             your
             email below to stay up-to-date with announcements and our launch deals.</p>
           <form class="form" action="index.html" method="post">
-            <div class="field">
-              <input class="input" name="email" type="email" placeholder="Email" onfocus="this.placeholder=''">
-              <img src="images/icon-error.svg" alt="alert-icon" class="alert-icon hidden">
-              <p class="warning-msg hidden">Email cannot be empty</p>
-              <button type="submit" class="submit-btn"><svg xmlns="http://www.w3.org/2000/svg" width="12"
-                height="20">
-                <path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671" /></svg></button>
-            </div>
+            <fieldset name='customer-email'>
+              <legend class="d-none">Customer Email</legend>
+              <div class="field">
+                <label class="d-none" for="email">Email</label>
+                <input class="input" id="email" name="email" type="email" placeholder="Email" onfocus="this.placeholder=''">
+                <img src="images/icon-error.svg" alt="alert-icon" class="alert-icon hidden">
+                <p class="warning-msg hidden">Email cannot be empty</p>
+                <button type="submit" class="submit-btn"><svg xmlns="http://www.w3.org/2000/svg" width="12"
+                  height="20">
+                  <path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671" /></svg></button>
+              </div>
+            </fieldset>
           </form>
         </div>
       </div>

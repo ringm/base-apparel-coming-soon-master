@@ -18,6 +18,10 @@
   opacity: 0;
 }
 
+.d-none {
+  display: none;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -387,6 +391,13 @@ img {
 
 button {
   border: none;
+}
+
+fieldset {
+  border: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .container {

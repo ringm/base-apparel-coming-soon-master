@@ -1,8 +1,8 @@
 const submitBtn = document.querySelector('.submit-btn');
 const field = document.querySelector(".field");
-const input = field.children[0];
-const alertIcon = field.children[1];
-const alertMsg = field.children[2];
+const input = field.children[1];
+const alertIcon = field.children[2];
+const alertMsg = field.children[3];
 const reg = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]{1,}\.[A-Za-z0-9]{1,}$/;
 
 const clearField = () => {
